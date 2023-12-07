@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style for the body with class body */
+.body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #08203e, #557c93);
+    color: #fff;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Style for the login form container */
+  div {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #07a9be57;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the login heading */
+  .login {
+    text-align: center;
+    color:  #19008a;
+  }
+  
+  /* Style for form labels */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7e0000;
+  }
+  
+  /* Style for form inputs */
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 12px);
+    text-decoration: solid;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(54, 39, 189);
+  }
+  
+  /* Style for form buttons */
+  input[type="button"],
+  input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="button"] {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  input[type="reset"] {
+    background-color: #f44336;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  input[type="button"]:hover,
+  input[type="reset"]:hover {
+    opacity: 0.8;
+  }
+  
